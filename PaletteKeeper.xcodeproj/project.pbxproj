@@ -98,8 +98,8 @@
 		186EF11B29D2AD48009B4060 /* PaletteKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				18A58A2529D38BCF006BF6DD /* Views */,
 				186EF11C29D2AD48009B4060 /* PaletteKeeperApp.swift */,
-				186EF11E29D2AD48009B4060 /* ContentView.swift */,
 				186EF12029D2AD4A009B4060 /* Assets.xcassets */,
 				186EF12529D2AD4A009B4060 /* Persistence.swift */,
 				186EF12729D2AD4A009B4060 /* PaletteKeeper.xcdatamodeld */,
@@ -131,6 +131,14 @@
 				186EF13E29D2AD4A009B4060 /* PaletteKeeperUITestsLaunchTests.swift */,
 			);
 			path = PaletteKeeperUITests;
+			sourceTree = "<group>";
+		};
+		18A58A2529D38BCF006BF6DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				186EF11E29D2AD48009B4060 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
